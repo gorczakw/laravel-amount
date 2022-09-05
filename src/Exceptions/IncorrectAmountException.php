@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Gorczakw\Amount\Exceptions;
+namespace Gorczakw\LaravelAmount\Exceptions;
 
 use Exception;
 

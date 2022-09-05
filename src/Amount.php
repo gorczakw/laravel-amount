@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Gorczakw\Amount;
+namespace Gorczakw\LaravelAmount;
 
 use JsonSerializable;
-use Gorczakw\Amount\Exceptions\IncorrectAmountException;
+use Gorczakw\LaravelAmount\Exceptions\IncorrectAmountException;
 
 class Amount implements JsonSerializable
 {
