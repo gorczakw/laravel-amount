@@ -1,0 +1,19 @@
+{
+    "name": "gorczakw/amount",
+    "description": "Model concept for amounts.",
+    "require": {
+        "php": ">=8.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Gorczakw\\Amount\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Wojciech Gorczak",
+            "email": "gorczak.w@gmail.com"
+        }
+    ]
+}
