@@ -4,7 +4,8 @@ declare(strict_types=1);
 
 namespace Gorczakw\LaravelAmount;
 
-use Gorczakw\LaravelAmount\Exceptions\IncorrectAmountException;
+use Gorczakw\Amount\Amount;
+use Gorczakw\Amount\Exceptions\IncorrectAmountException;
 use Illuminate\Contracts\Database\Eloquent\CastsAttributes;
 
 class AmountCast implements CastsAttributes

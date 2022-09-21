@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "19163610ad5b6dfedcb176f4c27bae86",
+    "content-hash": "8623b64c09330b8bbe7041dcf023649b",
     "packages": [
         {
             "name": "brick/math",
@@ -503,6 +503,46 @@
                 }
             ],
             "time": "2022-02-20T15:07:15+00:00"
+        },
+        {
+            "name": "gorczakw/amount",
+            "version": "v0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/gorczakw/amount.git",
+                "reference": "1babe64fa1f04fc653dfa4e45d0ec7e158eccbf4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/gorczakw/amount/zipball/1babe64fa1f04fc653dfa4e45d0ec7e158eccbf4",
+                "reference": "1babe64fa1f04fc653dfa4e45d0ec7e158eccbf4",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Gorczakw\\Amount\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Wojciech Gorczak",
+                    "email": "gorczak.w@gmail.com"
+                }
+            ],
+            "description": "Model concept for amounts.",
+            "support": {
+                "issues": "https://github.com/gorczakw/amount/issues",
+                "source": "https://github.com/gorczakw/amount/tree/v0.1.0"
+            },
+            "time": "2022-09-05T18:04:24+00:00"
         },
         {
             "name": "graham-campbell/result-type",

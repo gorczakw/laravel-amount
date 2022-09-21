@@ -1,10 +1,10 @@
 {
-    "name": "gorczakw/amount",
+    "name": "gorczakw/laravel-amount",
     "description": "Model concept for amounts for Laravel framework",
     "require": {
         "php": ">=8.0",
-        "laravel/framework": ">=8.0",
-        "illuminate/contracts": ">=8.0"
+        "illuminate/contracts": ">=8.0",
+        "gorczakw/amount": "^0.1.0"
     },
     "license": "MIT",
     "autoload": {
